@@ -1,15 +1,17 @@
 .heading {
   width: 100%;
   position: fixed;
-  background: #e5e5e5;
+  background: hsl(0, 0%, 90%);
   padding: 10px 0;
   color: #fff;
 }
 
-a:active {
+a:hover {
   color: white;
+  text-decoration: none;
 }
 
-a:hover {
-  color: #14213d;
+a:visited {
+  color: red;
+  text-decoration: none;
 }
