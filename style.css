@@ -10,8 +10,3 @@ a:hover {
   color: white;
   text-decoration: none;
 }
-
-a:visited {
-  color: red;
-  text-decoration: none;
-}
