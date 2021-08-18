@@ -1,1 +1,15 @@
+.heading {
+  width: 100%;
+  position: fixed;
+  background: #e5e5e5;
+  padding: 10px 0;
+  color: #fff;
+}
 
+a:active {
+  color: white;
+}
+
+a:hover {
+  color: #14213d;
+}
