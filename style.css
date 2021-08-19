@@ -23,3 +23,8 @@ a:active {
   color: white;
   text-decoration: none;
 }
+
+.chad_image {
+  align-items: center;
+  size: 350px;
+}
