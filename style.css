@@ -1,30 +1,61 @@
 .heading {
-  position: sticky;
+  position: fixed;
   top: 0px;
   text-align: center;
-  background-color: #e5e5e5;
-  float: left;
+  background-color: gray;
+
   width: 100%;
   height: 45px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  border-bottom: 2px solid #dddddd;
-  border-right: 0px solid #1f1f1e;
+  border-bottom: 2px solid gray;
+  border-right: 10px solid #1f1f1e;
   padding-top: 0px;
 }
 
-a:hover {
-  color: white;
+a:link {
+  color: #82c9ff;
   text-decoration: none;
+  font-size: 20px;
+}
+
+a:hover {
+  color: #35a7ff;
+  text-decoration: none;
+  font-size: 30px;
 }
 
 a:active {
-  color: white;
+  color: #82c9ff;
   text-decoration: none;
+  font-size: 20px;
+}
+
+a:visited {
+  color: #82c9ff;
+  text-decoration: none;
+  font-size: 20px;
 }
 
 .chad_image {
-  align-items: center;
-  size: 350px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 350px;
+  width: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.center_text {
+  text-align: center;
+  font-size: 30px;
+  font-family: Optima, sans-serif;
+  padding-top: 10px;
+}
+
+.main_text {
+  font-size: 20px;
+  font-family: Optima, sans-serif;
 }
