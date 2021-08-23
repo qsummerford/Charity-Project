@@ -14,25 +14,25 @@
 }
 
 a:link {
-  color: #82c9ff;
+  color: #fff;
   text-decoration: none;
   font-size: 20px;
 }
 
 a:hover {
-  color: #35a7ff;
+  color: #fff;
   text-decoration: none;
   font-size: 30px;
 }
 
 a:active {
-  color: #82c9ff;
+  color: #fff;
   text-decoration: none;
   font-size: 20px;
 }
 
 a:visited {
-  color: #82c9ff;
+  color: #fff;
   text-decoration: none;
   font-size: 20px;
 }
@@ -41,7 +41,7 @@ a:visited {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  height: 350px;
+  height: 450px;
   width: auto;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -61,4 +61,32 @@ a:visited {
 
 .copyright {
   background-color: lightgray;
+}
+
+.button {
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  display: flex;
+  flex-direction: row;
+  align-content: center center;
+  margin: auto;
+  font-size: 16px;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+  border: 3px solid white;
+}
+
+@media screen and (max-width: 100px) {
+  .column {
+    width: 100%;
+  }
 }
