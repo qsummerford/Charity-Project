@@ -90,3 +90,9 @@ a:visited {
     width: 100%;
   }
 }
+
+.helping_hand {
+  flex: 33.33%;
+  padding: 5px;
+  background-color: white;
+}
