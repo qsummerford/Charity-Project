@@ -87,6 +87,12 @@ a:visited {
   border: 3px solid white;
 }
 
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
 @media screen and (max-width: 100px) {
   .column {
     width: 100%;
